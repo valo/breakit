@@ -1,0 +1,99 @@
+<?xml version = '1.0'?>
+<kdevelop>
+  <general>
+    <author>Valentin Mihov</author>
+    <email>valo@valo</email>
+    <projectmanagement>KDevAutoProject</projectmanagement>
+    <primarylanguage>C++</primarylanguage>
+    <keywords>
+      <keyword>C++</keyword>
+      <keyword>Code</keyword>
+    </keywords>
+    <version/>
+    <description/>
+    <ignoreparts/>
+  </general>
+  <kdevautoproject>
+    <general>
+      <activetarget>src/breakin</activetarget>
+    </general>
+    <run>
+      <mainprogram>src/breakin</mainprogram>
+      <terminal>true</terminal>
+      <programargs/>
+    </run>
+    <makeenvvars>
+      <envvar value="1" name="WANT_AUTOCONF_2_5" />
+      <envvar value="1" name="WANT_AUTOMAKE_1_6" />
+    </makeenvvars>
+    <envvars/>
+    <make>
+      <abortonerror>false</abortonerror>
+      <numberofjobs>1</numberofjobs>
+      <dontact>false</dontact>
+      <makebin/>
+    </make>
+  </kdevautoproject>
+  <kdevfileview>
+    <tree>
+      <hidenonprojectfiles>false</hidenonprojectfiles>
+      <hidepatterns>*.o,*.lo,CVS</hidepatterns>
+    </tree>
+    <groups>
+      <group pattern="*.cfg" name="Config files" />
+      <group pattern="*.h" name="Headers" />
+      <group pattern="*.cpp" name="Sources" />
+    </groups>
+  </kdevfileview>
+  <kdevdoctreeview>
+    <projectdoc>
+      <userdocDir>/home/valo/Projects/breakin/html/</userdocDir>
+      <apidocDir>/home/valo/Projects/breakin/html/</apidocDir>
+    </projectdoc>
+  </kdevdoctreeview>
+  <cppsupportpart>
+    <codecompletion>
+      <codehinting outputview="1" enablech="1" selectview="0" />
+    </codecompletion>
+    <classstore>
+      <enablepcs>false</enablepcs>
+      <enablepp>false</enablepp>
+      <preparsing/>
+    </classstore>
+    <filetemplates>
+      <choosefiles>false</choosefiles>
+      <interfaceURL/>
+      <implementationURL/>
+      <interfacesuffix>.h</interfacesuffix>
+      <implementationsuffix>.cpp</implementationsuffix>
+      <lowercasefilenames>true</lowercasefilenames>
+    </filetemplates>
+  </cppsupportpart>
+  <kdevclassview>
+    <folderhierarchy>true</folderhierarchy>
+    <depthoffolders>2</depthoffolders>
+  </kdevclassview>
+  <kdevdebugger>
+    <general>
+      <programargs/>
+      <gdbpath/>
+      <dbgshell/>
+      <breakonloadinglibs>true</breakonloadinglibs>
+      <separatetty>false</separatetty>
+      <floatingtoolbar>false</floatingtoolbar>
+    </general>
+    <display>
+      <staticmembers>false</staticmembers>
+      <demanglenames>true</demanglenames>
+    </display>
+  </kdevdebugger>
+  <kdevcvs>
+    <cvsoptions>-f</cvsoptions>
+    <commitoptions/>
+    <updateoptions>-dP</updateoptions>
+    <addoptions/>
+    <removeoptions>-f</removeoptions>
+    <diffoptions>-u3 -p</diffoptions>
+    <logoptions/>
+  </kdevcvs>
+</kdevelop>
